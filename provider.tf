@@ -11,5 +11,5 @@ provider "google" {
   # Configuration options
   project = "development-435008"
   region = "us-central1"
-  credentials = file("secrets.TF_API_TOKEN")
+  credentials = file("gcp-key.json")
 }
